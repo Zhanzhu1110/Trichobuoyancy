@@ -5,8 +5,8 @@ g = 9.81  # m/s^2
 phi = 1.0  # dimensionless
 eta = 9.6e-4  # kg/(m·s)
 
-rho_w_min, rho_w_max, num_rho_w = 1026.5, 1029, 31  # kg/m^3
-rho_dust_min, rho_dust_max, num_rho_dust = 2100, 2600, 101  # kg/m^3
+rho_w_min, rho_w_max, num_rho_w = 1026.5, 1029, 100  # kg/m^3
+rho_dust_min, rho_dust_max, num_rho_dust = 2100, 2600, 100  # kg/m^3
 r_min, r_max, num_r = 0.442e-3, 1.282e-3, 100  # m
 
 # Use linspace function to create arrays
