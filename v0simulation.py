@@ -6,7 +6,7 @@ def calc_v0(g, V_cell, rho_cell, rho_w, r, phi, eta):
 
 # Define parameter ranges and step sizes
 V_cell_range = np.linspace(3.9e-13, 23e-13, 100)  # m^3
-rho_cell_range = np.linspace(777, 1242, 100)  # kg/m^3
+rho_cell_range = np.linspace(1035, 1065, 100)  # kg/m^3
 rho_w_range = np.linspace(1026.5, 1029, 100)  # kg/m^3
 r_range = np.linspace(0.442e-3, 1.282e-3, 100)  # m
 
